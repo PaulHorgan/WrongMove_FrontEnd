@@ -1,0 +1,343 @@
+/* CSS for table */
+
+.table-container {
+
+    max-height: 700px;
+    overflow: auto;
+
+}
+
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+
+}
+
+th {
+    position: sticky;
+    top: 0;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #eccfe6;
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+table tr:hover {
+    background-color: #da9dda;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #800080;
+    color: white;
+
+
+}
+
+/* css for buttons  */
+
+.button1 {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #800080;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.button1:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.button1:active {
+    color: #800080
+}
+
+.button1:active:after {
+    background: transparent;
+}
+
+.button1:hover:before {
+    opacity: 1;
+
+}
+
+.button1:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #800080;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+/* css for delete button  */
+
+.delete-btn {
+    background-color: #800080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #6a006a;
+}
+
+
+
+
+/* css for inputs and labels  */
+
+.label1 {
+    width: 100px;
+    text-align: left;
+}
+
+.input1,
+.label1 {
+    float: center;
+}
+
+
+.input1 {
+    border: 1px solid #800080;
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.input1:focus {
+    border: 2px solid #800080;
+    background-color: #ffe6ff;
+    outline: none;
+    box-shadow: 0 0 10px #800080;
+}
+
+
+/* css for background image */
+
+.container1 {
+
+    background: linear-gradient(rgba(255, 255, 255, 0.9),
+            rgba(255, 255, 255, 0.5)),
+        url('../images/newbuyer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-bottom: 50px;
+
+
+}
+.container3 {
+
+    background: linear-gradient(rgba(255, 255, 255, 0.9),
+            rgba(255, 255, 255, 0.5)),
+        url('../images/newbuyer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-bottom: 50px;
+    align-items: center;
+
+
+}
+.container2 {
+
+
+    background: linear-gradient(rgba(255, 255, 255, 0.9),
+            rgba(255, 255, 255, 0.7)),
+        url('../images/newbuyer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-bottom: 50px;
+
+
+}
+
+/* css for custom alert */
+
+.custom-alert {
+    background-color: #eccfe6;
+    color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    z-index: 1000;
+    max-width: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    animation: fadeIn 0.3s;
+}
+
+.custom-alert h3 {
+    margin-top: 0;
+    color: #444;
+    font-size: 20px;
+}
+
+.custom-alert p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.custom-alert button {
+    background-color: #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.custom-alert button:hover {
+    background-color: #eccfe6;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        top: 10%;
+    }
+
+    to {
+        opacity: 1;
+        top: 20%;
+    }
+}
+
+.password-form {
+    margin-top: 20px;
+}
+
+.password-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.password-form input {
+    border: 1px solid #800080;
+    border-radius: 20px;
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.password-form button {
+        width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #800080;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.password-form button:hover {
+    background-color: #6a006a;
+}
+
+/* CSS for dropdown buttons */
+
+.dropbtn {
+    background-color: #800080; 
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none; 
+    box-shadow: none;
+    
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #eccfe6;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    color: black;
+    right: 0; 
+    bottom: 5;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #800080;
+}

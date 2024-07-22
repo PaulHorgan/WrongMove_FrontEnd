@@ -1,0 +1,461 @@
+{
+  "buyers": [
+    {
+      "id": "f014",
+      "firstname": "James",
+      "surname": "Horgan"
+    },
+    {
+      "id": "ebd0",
+      "firstname": "Barry",
+      "surname": "Chuckle"
+    },
+    {
+      "id": "2890",
+      "firstname": "Ross",
+      "surname": "MacAuley"
+    },
+    {
+      "id": "67d1",
+      "firstname": "Macauley",
+      "surname": "Culkin"
+    },
+    {
+      "id": "b706",
+      "firstname": "Maceo",
+      "surname": "Parker"
+    },
+    {
+      "id": "79b3",
+      "firstname": "Sana",
+      "surname": "Ahmed"
+    },
+    {
+      "id": "2bd8",
+      "firstname": "Joe",
+      "surname": "Bloggs"
+    },
+    {
+      "id": "b24e",
+      "firstname": "Mary",
+      "surname": "Berry"
+    },
+    {
+      "id": "e489",
+      "firstname": "David",
+      "surname": "McManus"
+    }
+  ],
+  "properties": [
+    {
+      "id": "4",
+      "sellerId": "cefa",
+      "street": "Ave Avenue",
+      "town": "Dunfermline",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "price": 120000,
+      "garden": "Yes",
+      "imageUrl": "https://randomwordgenerator.com/img/picture-generator/water-3167440_640.jpg",
+      "status": "Withdrawn"
+    },
+    {
+      "id": "122",
+      "sellerId": "cefa",
+      "street": "First St",
+      "town": "Dunfermline",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "price": 320000,
+      "garden": "Yes",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuzuVBrCaUWx033aZT-iy5gQnhtiosMeYggw&s",
+      "status": "For Sale"
+    },
+    {
+      "id": "132",
+      "sellerId": "a5a6",
+      "street": "Crescent Lane",
+      "town": "London",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "price": 120000,
+      "garden": "Yes",
+      "imageUrl": "https://img.onmanorama.com/content/dam/mm/en/lifestyle/decor/images/2023/6/1/house-middleclass.jpg",
+      "status": "For Sale"
+    },
+    {
+      "id": "999",
+      "sellerId": "cefa",
+      "street": "456 street",
+      "town": "Inverkeithing",
+      "bedrooms": 7,
+      "bathrooms": 8,
+      "price": 750000,
+      "garden": "No",
+      "imageUrl": "https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/advisor/wp-content/uploads/2021/08/download-7.jpg",
+      "status": "For Sale"
+    },
+    {
+      "id": "6c46",
+      "sellerId": "66da",
+      "street": "Middlebank Rise",
+      "town": "Dunfermline",
+      "price": 250000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "garden": "Yes",
+      "status": "For Sale",
+      "imageUrl": "https://media.houseandgarden.co.uk/photos/65f80801278c68a0967e51e8/1:1/w_1600%2Cc_limit/Shot-02-045_RT.jpg"
+    },
+    {
+      "id": "6c76",
+      "sellerId": "59e7",
+      "street": "Upperbank Rise",
+      "town": "Dunfermline",
+      "price": 225000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "garden": "No",
+      "status": "Sold",
+      "imageUrl": "https://media.rightmove.co.uk/56k/55853/148471778/55853_WH5028_IMG_00_0000.jpeg"
+    },
+    {
+      "id": "8762",
+      "sellerId": "8eca",
+      "street": "Crescent Avenue",
+      "town": "Bathgate",
+      "price": 210000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "garden": "Yes",
+      "status": "Withdrawn",
+      "imageUrl": "https://media.rightmove.co.uk/35k/34395/148392980/34395_27659841_IMG_00_0000.jpeg"
+    },
+    {
+      "id": "998",
+      "sellerId": "a5a6",
+      "street": "1st Av",
+      "town": "Dunfermline",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "price": 350000,
+      "garden": "Yes",
+      "imageUrl": "https://randomwordgenerator.com/img/picture-generator/water-3167440_640.jpg",
+      "status": "Sold"
+    },
+    {
+      "id": "997",
+      "sellerId": "cefa",
+      "street": "123 avenue",
+      "town": "Dunfermline",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "price": 650000,
+      "garden": "Yes",
+      "imageUrl": "https://res.cloudinary.com/brickandbatten/images/f_auto,q_auto/v1675439478/wordpress_assets/SmallHouseExteriors-Twitter-card-B-LOGO/SmallHouseExteriors-Twitter-card-B-LOGO.jpg?_i=AA",
+      "status": "For Sale"
+    },
+    {
+      "id": "996",
+      "sellerId": "cefa",
+      "street": "12 Crescent",
+      "town": "London",
+      "bedrooms": 7,
+      "bathrooms": 2,
+      "price": 1195000,
+      "garden": "Yes",
+      "imageUrl": "https://www.wilsonhomes.com.au/sites/default/files/styles/blog_hero_banner/public/My%20project%20-%202023-06-20T095818.329%20%281%29_0.jpg?itok=UbtVbhT0",
+      "status": "For Sale"
+    },
+    {
+      "id": "995",
+      "sellerId": "cefa",
+      "street": "3 cul-de-sac",
+      "town": "Inverkeithing",
+      "bedrooms": 7,
+      "bathrooms": 8,
+      "price": 750000,
+      "garden": "No",
+      "imageUrl": "https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/advisor/wp-content/uploads/2021/08/download-7.jpg",
+      "status": "For Sale"
+    },
+    {
+      "id": "994",
+      "sellerId": "cefa",
+      "street": "Middlebank Rise",
+      "town": "Dunfermline",
+      "price": 210000,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "garden": "Yes",
+      "status": "For Sale",
+      "imageUrl": "https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/8/2023/03/CLI395.props_week.173_petersham_road_17_1-920x613.jpg"
+    },
+    {
+      "id": "993",
+      "sellerId": "cefa",
+      "street": "Lowerbank Rise",
+      "town": "Dunfermline",
+      "price": 225000,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "garden": "No",
+      "status": "Sold",
+      "imageUrl": "https://media.rightmove.co.uk/56k/55853/148471778/55853_WH5028_IMG_00_0000.jpeg"
+    },
+    {
+      "id": "992",
+      "sellerId": "cefa",
+      "street": "Crescent Avenue",
+      "town": "Bathgate",
+      "price": 215000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "garden": "Yes",
+      "status": "For Sale",
+      "imageUrl": "https://media.rightmove.co.uk/35k/34395/148392980/34395_27659841_IMG_00_0000.jpeg"
+    },
+    {
+      "id": "66c2",
+      "sellerId": "cefa",
+      "street": "Western Avenue",
+      "town": "Pitlochry",
+      "price": 750000,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "garden": "No",
+      "status": "For Sale",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE82sRLHLrkQ9K39bdB5fai-4lSc_8Ghtz4A&s"
+    },
+    {
+      "id": "1eed",
+      "sellerId": "59e7",
+      "street": "Woodlands",
+      "town": "Inverness",
+      "price": 1250000,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "garden": "Yes",
+      "status": "For Sale",
+      "imageUrl": "https://media.rightmove.co.uk/27k/26241/147661958/26241_INV220089_IMG_00_0000.jpeg"
+    },
+    {
+      "id": "9e75",
+      "sellerId": "dd09",
+      "street": "Beech Walk",
+      "town": "London",
+      "price": 475000,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "garden": "Yes",
+      "status": "For Sale",
+      "imageUrl": "https://media.rightmove.co.uk/1k/28/141832685/28_LCH230212_IMG_25_0000.jpeg"
+    },
+    {
+      "id": "4c1b",
+      "sellerId": "cefa",
+      "street": "Brick Street",
+      "town": "London",
+      "price": 35000000,
+      "bedrooms": 7,
+      "bathrooms": 7,
+      "garden": "Yes",
+      "status": "For Sale",
+      "imageUrl": "https://media.rightmove.co.uk/66k/65815/127390289/65815_WER012200431_IMG_00_0014.jpeg"
+    },
+    {
+      "id": "6240",
+      "sellerId": "8eca",
+      "street": "Cambridge Park",
+      "town": "Twickenham",
+      "price": 29950000,
+      "bedrooms": 9,
+      "bathrooms": 10,
+      "garden": "Yes",
+      "status": "For Sale",
+      "imageUrl": "https://media.rightmove.co.uk/29k/28836/146416112/28836_RCH012160222_IMG_00_0004.jpeg"
+    },
+    {
+      "id": "6e4e",
+      "sellerId": "e7a9",
+      "street": "Merton Lane",
+      "town": "London",
+      "price": 32000000,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "garden": "Yes",
+      "status": "Sold",
+      "imageUrl": "https://media.rightmove.co.uk/63k/62080/83624538/62080_NLD180216_IMG_00_0000.jpeg"
+    },
+    {
+      "id": "4ab2",
+      "sellerId": "66da",
+      "street": "Newmills",
+      "town": "Tullibody",
+      "price": 10000000,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "garden": "Yes",
+      "status": "For Sale",
+      "imageUrl": "https://th.bing.com/th/id/R.a1d4a6f8ba9cf40bbe69c6e47546e8a3?rik=dgUZMgnDeoL7Dw&riu=http%3a%2f%2fwww.luxxu.net%2fblog%2fwp-content%2fuploads%2f2017%2f02%2f20-Incredible-Modern-Houses-Around-the-United-States-5.jpg&ehk=jltOlopAEXlYw25Qjcb6BhHSadJcIyJ863PI4ffrO70%3d&risl=1&pid=ImgRaw&r=0"
+    },
+    {
+      "id": "8e85",
+      "sellerId": "a5a6",
+      "street": "Ormiston",
+      "town": "Tranent",
+      "price": 255000,
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "garden": "Yes",
+      "status": "For Sale",
+      "imageUrl": "https://th.bing.com/th/id/OIP.hjFcGdvdGjYZQKvJvMns9QHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "adda",
+      "sellerId": "d407",
+      "street": "Bank Street",
+      "town": "Haddington",
+      "price": 250000,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "garden": "Yes",
+      "status": "Sold",
+      "imageUrl": "https://images.pexels.com/photos/3555615/pexels-photo-3555615.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+    }
+  ],
+  "sellers": [
+    {
+      "id": "cefa",
+      "firstname": "Donald",
+      "surname": "Duck"
+    },
+    {
+      "id": "e7a9",
+      "firstname": "John",
+      "surname": "Smith"
+    },
+    {
+      "id": "66da",
+      "firstname": "Macauley",
+      "surname": "Culkin"
+    },
+    {
+      "id": "dd09",
+      "firstname": "Sana",
+      "surname": "Ahmed"
+    },
+    {
+      "id": "59e7",
+      "firstname": "Mark",
+      "surname": "Wilson"
+    },
+    {
+      "id": "8eca",
+      "firstname": "Ronald",
+      "surname": "Weasley"
+    },
+    {
+      "id": "a5a6",
+      "firstname": "Professor",
+      "surname": "McGonagall"
+    },
+    {
+      "id": "d407",
+      "firstname": "David",
+      "surname": "McManus"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "e239",
+      "buyerId": "f014",
+      "firstName": "James",
+      "surname": "Horgan",
+      "propertyId": "122",
+      "date": "2024-06-11",
+      "timeSlot": "12:00-13:00"
+    },
+    {
+      "id": "bd24",
+      "buyerId": "ebd0",
+      "firstName": "Barry",
+      "surname": "Chuckle",
+      "propertyId": "122",
+      "date": "2024-06-11",
+      "timeSlot": "10:00-11:00"
+    },
+    {
+      "id": "0eea",
+      "buyerId": "f014",
+      "firstName": "James",
+      "surname": "Horgan",
+      "propertyId": "122",
+      "date": "2024-06-04",
+      "timeSlot": "13:00-14:00"
+    },
+    {
+      "id": "1b2e",
+      "buyerId": "67d1",
+      "firstName": "Macauley",
+      "surname": "Culkin",
+      "propertyId": "132",
+      "date": "2024-06-14",
+      "timeSlot": "13:00-14:00"
+    },
+    {
+      "id": "1391",
+      "buyerId": "2bd8",
+      "firstName": "Joe",
+      "surname": "Bloggs",
+      "propertyId": "6c46",
+      "date": "2024-06-07",
+      "timeSlot": "10:00-11:00"
+    },
+    {
+      "id": "5b9a",
+      "buyerId": "79b3",
+      "firstName": "Sana",
+      "surname": "Ahmad",
+      "propertyId": "995",
+      "date": "2024-06-28",
+      "timeSlot": "12:00-13:00"
+    },
+    {
+      "id": "865c",
+      "buyerId": "b706",
+      "firstName": "Maceo",
+      "surname": "Parker",
+      "propertyId": "994",
+      "date": "2024-06-30",
+      "timeSlot": "8:00-9:00"
+    },
+    {
+      "id": "cffd",
+      "buyerId": "2890",
+      "firstName": "Ross",
+      "surname": "MacAuley",
+      "propertyId": "122",
+      "date": "2024-07-02",
+      "timeSlot": "8:00-9:00"
+    },
+    {
+      "id": "b5da",
+      "buyerId": "ebd0",
+      "firstName": "Barry",
+      "surname": "Chuckle",
+      "propertyId": "6240",
+      "date": "2024-06-08",
+      "timeSlot": "10:00-11:00"
+    },
+    {
+      "id": "9c24",
+      "buyerId": "e489",
+      "firstName": "David",
+      "surname": "McManus",
+      "propertyId": "6240",
+      "date": "2024-06-08",
+      "timeSlot": "12:00-13:00"
+    }
+  ]
+}
