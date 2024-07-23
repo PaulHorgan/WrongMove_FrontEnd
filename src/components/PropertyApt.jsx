@@ -41,7 +41,7 @@ const BookAppointment = () => {
 
   useEffect(() => {
     axios
-        .get("http://localhost:4495/property/" + params.id)
+        .get("http://backend-service:4495/property/" + params.id)
         .then((res) => {
           setPropertyId(res.data.id);
           setDetails(res.data);
@@ -59,7 +59,7 @@ const BookAppointment = () => {
 
     if (buyerId) {
       try {
-        const response = await fetch("http://localhost:4495/buyer/get/" + buyerId);
+        const response = await fetch("http://backend-service:4495/buyer/get/" + buyerId);
         const userData = await response.json();
         if (userData) {
           setFirstName(userData.firstname);
@@ -87,7 +87,7 @@ const BookAppointment = () => {
     const convertedPropertyId = parseInt(propertyId, 10);
     try {
       // Fetch all existing appointments
-      const response = await axios.get('http://localhost:4495/appointments/getAll');
+      const response = await axios.get('http://backend-service:4495/appointments/getAll');
       const bookingData = response.data;
 
       // Check if the selected timeslot is already booked
@@ -113,7 +113,7 @@ const BookAppointment = () => {
         
     };
 
-      const appointmentResponse = await axios.post('http://localhost:4495/appointments/create', appointment);
+      const appointmentResponse = await axios.post('http://backend-service:4495/appointments/create', appointment);
       const appointmentData = appointmentResponse.data;
       setAlertMessage(`Appointment Booked. Your Booking ID is ${appointmentData.id}`);
       setShowAlert(true);

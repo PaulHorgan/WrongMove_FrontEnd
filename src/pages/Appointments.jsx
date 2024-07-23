@@ -25,7 +25,7 @@ const useFetch = (url) => {
 
 const Appointments = () => {
   const [deleteId, setDeleteId] = useState('');
-  const [data, loading, setData] = useFetch('http://localhost:4495/appointments/getAll');
+  const [data, loading, setData] = useFetch('http://backend-service:4495/appointments/getAll');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
   const [showConfirmation, setShowConfirmation] = useState(false);
@@ -39,7 +39,7 @@ const Appointments = () => {
 
   const handleConfirmDelete = async () => {
     try {
-      await fetch(`http://localhost:4495/appointments/remove/${deleteId}`, {
+      await fetch(`http://backend-service:4495/appointments/remove/${deleteId}`, {
         method: 'DELETE',
       });
 

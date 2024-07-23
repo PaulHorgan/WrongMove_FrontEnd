@@ -14,7 +14,7 @@ function AddSellers() {
     const [seller, setSeller] = useState([]);
     const fetchData = async () => {
                 try {
-                    const response = await axios.get('http://localhost:4495/seller/get/all');
+                    const response = await axios.get('http://backend-service:4495/seller/get/all');
                     setSeller(response.data);
                 } catch (error) {
                     console.error('Error:', error);
