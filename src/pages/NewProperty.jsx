@@ -11,7 +11,7 @@ function NewProperty() {
 
         const fetchData = async () => {
             try {
-                const response = await axios.get('http://backend-service:8080/property/getAll');
+                const response = await axios.get('http://34.142.58.221:8080/property/getAll');
                 setProperties(response.data);
             } catch (error) {
                 console.error('Error:', error);

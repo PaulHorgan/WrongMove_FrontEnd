@@ -26,7 +26,7 @@ export default function MaintainProperty() {
     };
 
     useEffect(() => {
-        axios.get("http://backend-service:8080/property/" + params.id).then(res => {
+        axios.get("http://34.142.58.221:8080/property/" + params.id).then(res => {
         console.log(res)    
         setStreet(res.data.street);
             setTown(res.data.town);
@@ -51,7 +51,7 @@ export default function MaintainProperty() {
             state,
             imageUrl
         };
-        axios.patch(`http://backend-service:8080/property/update/${params.id}`, data)
+        axios.patch(`http://34.142.58.221:8080/property/update/${params.id}`, data)
             .then(() => {
                 setAlertMessage("Property details updated successfully.");
                 setShowAlert(true);

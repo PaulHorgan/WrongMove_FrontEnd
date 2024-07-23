@@ -14,7 +14,7 @@ function AddBuyers() {
     const [buyer, setBuyer] = useState([]);
        const fetchData = async () => {
                     try {
-                        const response = await axios.get('http://backend-service:8080/buyer/get/all');
+                        const response = await axios.get('http://34.142.58.221:8080/buyer/get/all');
                         setBuyer(response.data);
                     } catch (error) {
                         console.error('Error:', error);

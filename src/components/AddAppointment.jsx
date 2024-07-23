@@ -31,7 +31,7 @@ const BookAppointment = () => {
     const handlePopulate = async () => {
         if (!buyerId) return;
         try {
-            const response = await axios.get(`http://backend-service:8080/buyer/get/${buyerId}`);
+            const response = await axios.get(`http://34.142.58.221:8080/buyer/get/${buyerId}`);
             const userData = response.data;
 
             if (userData) {
@@ -54,7 +54,7 @@ const BookAppointment = () => {
     const handlePropertyValidation = async () => {
         if (!propertyId) return;
         try {
-            const response = await axios.get(`http://backend-service:8080/property/${propertyId}`);
+            const response = await axios.get(`http://34.142.58.221:8080/property/${propertyId}`);
             const propertyData = response.data;
 
             if (!propertyData || propertyData.length === 0) {
@@ -108,7 +108,7 @@ const BookAppointment = () => {
         const convertedPropertyId = parseInt(propertyId, 10);
 
         try {
-            const response = await axios.get('http://backend-service:8080/appointments/getAll');
+            const response = await axios.get('http://34.142.58.221:8080/appointments/getAll');
             const bookingData = response.data;
 
             const appointmentExists = bookingData.some(
@@ -135,7 +135,7 @@ const BookAppointment = () => {
                 
             };
 
-            const appointmentResponse = await axios.post('http://backend-service:8080/appointments/create', appointment);
+            const appointmentResponse = await axios.post('http://34.142.58.221:8080/appointments/create', appointment);
             const appointmentData = appointmentResponse.data;
             setAlertMessage(`Appointment Booked. Your Booking ID is ${appointmentData.id}`);
             setShowAlert(true);

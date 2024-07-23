@@ -11,7 +11,7 @@ function Propseller() {
     const [userAppointments, setUserAppointments] = useState([]);
     const [sortConfig, setSortConfig] = useState({ key: 'id', direction: 'ascending' });
     useEffect(() => {
-        axios.get(`http://backend-service:8080/seller/get/${params.sellerId}`)
+        axios.get(`http://34.142.58.221:8080/seller/get/${params.sellerId}`)
             .then((response) => response.data)
             .then((data) => {
                 setUserAppointments(data.properties);

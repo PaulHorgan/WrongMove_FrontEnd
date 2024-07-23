@@ -25,7 +25,7 @@ const useFetch = (url) => {
 
 const Appointments = () => {
   const [deleteId, setDeleteId] = useState('');
-  const [data, loading, setData] = useFetch('http://backend-service:8080/appointments/getAll');
+  const [data, loading, setData] = useFetch('http://34.142.58.221:8080/appointments/getAll');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
   const [showConfirmation, setShowConfirmation] = useState(false);
@@ -39,7 +39,7 @@ const Appointments = () => {
 
   const handleConfirmDelete = async () => {
     try {
-      await fetch(`http://backend-service:8080/appointments/remove/${deleteId}`, {
+      await fetch(`http://34.142.58.221:8080/appointments/remove/${deleteId}`, {
         method: 'DELETE',
       });
 
