@@ -25,7 +25,7 @@ export default function AddProperty({onAddProperty}) {
 
         // Fetch sellers data
         try {
-            const response = await axios.get(`http://backend-service:4495/seller/get/all`);
+            const response = await axios.get(`http://backend-service:8080/seller/get/all`);
             const sellersData = response.data
 
              // Convert sellerId to a number if it's a string
@@ -41,7 +41,7 @@ export default function AddProperty({onAddProperty}) {
 
             const task = { seller: {id:sellerId}, street, town, price, bedrooms, bathrooms, garden, state, imageUrl }
 
-            const postResponse = await axios.post('http://backend-service:4495/property/add', task);
+            const postResponse = await axios.post('http://backend-service:8080/property/add', task);
                         const data = postResponse.data;
 
             setAlertMessage(`Property Added Succesfully`);

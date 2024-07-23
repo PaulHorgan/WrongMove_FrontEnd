@@ -21,7 +21,7 @@ function PropSeller() {
 
     useEffect(() => {
 
-        axios.get(`http://backend-service:4495/property/${params.id}`)
+        axios.get(`http://backend-service:8080/property/${params.id}`)
             .then((response) => response.data)
             .then((data) => { setDetails(data) })
             .then(() => console.log(details))
@@ -32,7 +32,7 @@ function PropSeller() {
 
     useEffect(() => {
 
-        axios.get(`http://backend-service:4495/property/${params.id}`)
+        axios.get(`http://backend-service:8080/property/${params.id}`)
             .then((response) => response.data)
             .then((data) => { setAppts(data.appointments); })
             .then(() => console.log(appts))

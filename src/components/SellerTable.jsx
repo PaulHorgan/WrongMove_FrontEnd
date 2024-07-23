@@ -26,7 +26,7 @@ function JsonDataDisplay({seller, onSellerUpdate}) {
 
     const handleConfirm = async () => {
         try {
-            const response = await axios.delete(`http://backend-service:4495/seller/remove/${sellerIdToDelete}`);
+            const response = await axios.delete(`http://backend-service:8080/seller/remove/${sellerIdToDelete}`);
             if (response.status === 200) {
                 onSellerUpdate(); // Trigger fetching new data in parent
 

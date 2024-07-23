@@ -44,7 +44,7 @@ const AddBuyer = ({onAddBuyer}) => {
 
         try {
             // Check if the combination already exists
-            const checkResponse = await axios.get(`http://backend-service:4495/buyer/get/all`);
+            const checkResponse = await axios.get(`http://backend-service:8080/buyer/get/all`);
             const existingData = checkResponse.data;
 
             const dataExists = existingData.some(data =>
@@ -59,7 +59,7 @@ const AddBuyer = ({onAddBuyer}) => {
             }
 
             // Send a POST request to add the new buyer
-            const postResponse = await axios.post('http://backend-service:4495/buyer/add', user);
+            const postResponse = await axios.post('http://backend-service:8080/buyer/add', user);
             const data = postResponse.data;
 
             setAlertMessage(`New Buyer Added. Your Unique ID is ${data.id}`);
