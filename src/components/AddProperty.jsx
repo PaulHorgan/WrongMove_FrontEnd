@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from 'axios';
 import CustomAlert from "./CustomAlert";
+import { Link } from "react-router-dom";
 
 
 
@@ -74,7 +75,7 @@ export default function AddProperty({onAddProperty}) {
                 value={sellerId}
                 onChange={(e) => setSellerId(e.target.value)} />
                  <div style={{ fontSize: '14px', color: '#800880', marginBottom: '10px', marginTop: '5px' }}>
-          Not currently registered? <a href="/Sellers" style={{ color: '#800880' }}>Click here to register</a>
+          Not currently registered? <Link to="/sellers" style={{ color: '#800880' }}>Click here to register</Link>
         </div>
           
             <label className="label1">Street Name: </label>
