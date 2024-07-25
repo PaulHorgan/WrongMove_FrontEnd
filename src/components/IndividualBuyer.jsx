@@ -19,7 +19,7 @@ function Propbuyer() {
 
     const handleDelete = (e, id) => {
         e.preventDefault();
-        axios.delete(`http://34.142.58.221:8080/appointments/getAll/${id}`)
+        axios.delete(`http://34.142.58.221:8080/appointments/remove/${id}`)
             .then(() => {
                 setUserAppointments(userAppointments.filter(appoint => appoint.id !== id));
             })

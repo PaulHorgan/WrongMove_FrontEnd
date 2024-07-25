@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import {  useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 import CustomAlert from "./CustomAlert";
 
@@ -19,16 +19,20 @@ export default function MaintainProperty() {
 
     const [showAlert, setShowAlert] = useState(false);
     const [alertMessage, setAlertMessage] = useState('');
+
     const handleCloseAlert = () => {
-      setShowAlert(false);
-      navigate("/propertyadmin");
-      
+        if (alertMessage === "Failed to update property details. Please try again.") {
+            setShowAlert(false);
+        } else {
+            setShowAlert(false);
+            navigate("/propertyadmin");
+        }
     };
 
     useEffect(() => {
         axios.get("http://34.142.58.221:8080/property/" + params.id).then(res => {
-        console.log(res)    
-        setStreet(res.data.street);
+            console.log(res)
+            setStreet(res.data.street);
             setTown(res.data.town);
             setPrice(res.data.price);
             setBedrooms(res.data.bedrooms);
@@ -67,7 +71,7 @@ export default function MaintainProperty() {
     return (
         <div className="body">
             <h1 className="pagetitle"> Property Updates - Change all required </h1>
-            <br/>
+            <br />
             {showAlert && <CustomAlert message={alertMessage} onClose={handleCloseAlert} />}
             <form onSubmit={handleSubmit}>
                 <label className="label1">Street Name: </label>
