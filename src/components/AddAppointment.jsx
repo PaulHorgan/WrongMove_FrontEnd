@@ -3,6 +3,7 @@ import axios from 'axios';
 import CustomAlert from './CustomAlert';
 
 const BookAppointment = () => {
+    window.scrollTo(0, 0);
     const [timeSlot, setTimeSlot] = useState('');
     const [firstName, setFirstName] = useState('');
     const [surname, setSurname] = useState('');

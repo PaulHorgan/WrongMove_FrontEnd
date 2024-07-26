@@ -22,6 +22,7 @@ export default function AddProperty({onAddProperty}) {
 
 
     const handleSubmit = async (e) => {
+        window.scrollTo(0, 0);
         e.preventDefault();
 
         // Fetch sellers data

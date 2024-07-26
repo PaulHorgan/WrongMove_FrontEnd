@@ -4,6 +4,7 @@ import '../css/RegisterUser.css';
 import CustomAlert from "./CustomAlert";
 
 const AddSeller = ({onAddSeller}) => {
+    window.scrollTo(0, 0);
     const [firstname, setFirstName] = useState('');
     const [surname, setSurname] = useState('');
     const [showAlert, setShowAlert] = useState(false);
